@@ -16,23 +16,12 @@ sudo gem install cocoapods
 
 3) Once you have downloaded the Xcode software and the command line tool cocoapods, you can clone the project from github down to your local machine. 
 
-4) Once the project has been cloned, create a file called Podfile in the root of your directory and inside of the file copy and paste the following and save:
-```file
-# Uncomment the next line to define a global platform for your project
-platform :ios, '13.0'
-
-target 'Datadog-App' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for Datadog-App
-  pod 'DatadogSDK', '~> 1.3.0-beta1'
-
-end
+4) In the pod file we are adding the SDK we want to use and which version in which in this case is 1.3.0-beta1. Once you have saved the file, go back to your terminal and run the following:
+```podfile
+pod installl
 ```
-5) In the pod file we are adding the SDK we want to use and which version in which in this case is 1.3.0-beta1. Once you have saved the file, go back to your terminal and run pod install.
 
-For reference you directory should now look liek the following:
+For reference you directory should now look like the following:
 ![image](filesetup.png)
 
 6) The final step would be to click on the Datadog-App.xcworkspace file and this should open up xcode <br />
