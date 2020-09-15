@@ -3,20 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65393D0D8E8F82C544AF1724 /* Pods_Datadog_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7ED3C4CF792F6086F6C32C /* Pods_Datadog_App.framework */; };
 		B118A91D24B69720001F1735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118A91C24B69720001F1735 /* AppDelegate.swift */; };
 		B118A91F24B69720001F1735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118A91E24B69720001F1735 /* SceneDelegate.swift */; };
 		B118A92124B69720001F1735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118A92024B69720001F1735 /* ViewController.swift */; };
 		B118A92424B69720001F1735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B118A92224B69720001F1735 /* Main.storyboard */; };
 		B118A92624B69720001F1735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B118A92524B69720001F1735 /* Assets.xcassets */; };
 		B118A92924B69720001F1735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B118A92724B69720001F1735 /* LaunchScreen.storyboard */; };
+		B1804CB524C6A4F400D776E3 /* SwiftUIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1804CB424C6A4F400D776E3 /* SwiftUIViews.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B1804CCE24C6A68300D776E3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B118A91924B69720001F1735 /* Datadog-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Datadog-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7ED3C4CF792F6086F6C32C /* Pods_Datadog_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Datadog_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A40647D32D0BAC5FEDCF6F8 /* Pods-Datadog-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Datadog-App.release.xcconfig"; path = "Target Support Files/Pods-Datadog-App/Pods-Datadog-App.release.xcconfig"; sourceTree = "<group>"; };
+		B118A91924B69720001F1735 /* Datadog-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Datadog-App.app"; path = "/Users/muhammad.awais/Desktop/Datadog-App/build/Debug-iphoneos/Datadog-App.app"; sourceTree = "<absolute>"; };
 		B118A91C24B69720001F1735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B118A91E24B69720001F1735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B118A92024B69720001F1735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +41,10 @@
 		B118A92524B69720001F1735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B118A92824B69720001F1735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B118A92A24B69720001F1735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1804CB424C6A4F400D776E3 /* SwiftUIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViews.swift; sourceTree = "<group>"; };
+		B1804CBB24C6A67F00D776E3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B1804CBD24C6A67F00D776E3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B64A916CDE8D0C7BCBD8FA69 /* Pods-Datadog-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Datadog-App.debug.xcconfig"; path = "Target Support Files/Pods-Datadog-App/Pods-Datadog-App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,26 +52,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65393D0D8E8F82C544AF1724 /* Pods_Datadog_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C08F185008C13B0B716E571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B7ED3C4CF792F6086F6C32C /* Pods_Datadog_App.framework */,
+				B1804CBB24C6A67F00D776E3 /* WidgetKit.framework */,
+				B1804CBD24C6A67F00D776E3 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BA5A3DC9B7266BC5EE9600D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B64A916CDE8D0C7BCBD8FA69 /* Pods-Datadog-App.debug.xcconfig */,
+				9A40647D32D0BAC5FEDCF6F8 /* Pods-Datadog-App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B118A91024B69720001F1735 = {
 			isa = PBXGroup;
 			children = (
+				B1804CB424C6A4F400D776E3 /* SwiftUIViews.swift */,
 				B118A91B24B69720001F1735 /* Datadog-App */,
-				B118A91A24B69720001F1735 /* Products */,
+				7BA5A3DC9B7266BC5EE9600D /* Pods */,
+				5C08F185008C13B0B716E571 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		B118A91A24B69720001F1735 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B118A91924B69720001F1735 /* Datadog-App.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B118A91B24B69720001F1735 /* Datadog-App */ = {
@@ -74,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B118A92D24B69720001F1735 /* Build configuration list for PBXNativeTarget "Datadog-App" */;
 			buildPhases = (
+				34AA85BE66FF5C83E3D5C09D /* [CP] Check Pods Manifest.lock */,
 				B118A91524B69720001F1735 /* Sources */,
 				B118A91624B69720001F1735 /* Frameworks */,
 				B118A91724B69720001F1735 /* Resources */,
+				895B31FA638F991BA8C4861D /* [CP] Embed Pods Frameworks */,
+				B1804CCE24C6A68300D776E3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -93,7 +131,7 @@
 		B118A91124B69720001F1735 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = muhammad.awais;
 				TargetAttributes = {
@@ -111,7 +149,7 @@
 				Base,
 			);
 			mainGroup = B118A91024B69720001F1735;
-			productRefGroup = B118A91A24B69720001F1735 /* Products */;
+			productRefGroup = B118A91024B69720001F1735;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -133,6 +171,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34AA85BE66FF5C83E3D5C09D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Datadog-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		895B31FA638F991BA8C4861D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Datadog-App/Pods-Datadog-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Datadog-App/Pods-Datadog-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Datadog-App/Pods-Datadog-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B118A91524B69720001F1735 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +220,7 @@
 			files = (
 				B118A92124B69720001F1735 /* ViewController.swift in Sources */,
 				B118A91D24B69720001F1735 /* AppDelegate.swift in Sources */,
+				B1804CB524C6A4F400D776E3 /* SwiftUIViews.swift in Sources */,
 				B118A91F24B69720001F1735 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +363,9 @@
 		};
 		B118A92E24B69720001F1735 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64A916CDE8D0C7BCBD8FA69 /* Pods-Datadog-App.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Datadog-App/Info.plist";
@@ -299,7 +382,9 @@
 		};
 		B118A92F24B69720001F1735 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A40647D32D0BAC5FEDCF6F8 /* Pods-Datadog-App.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Datadog-App/Info.plist";
