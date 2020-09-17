@@ -76,7 +76,9 @@ class ViewController: UIViewController {
 //   You can uncomment the code below to send an info log with the attribute listed below
 //        logger.info("Clicked To Sent Log", attributes: ["context": "onboarding flow"])
         
-//   This will show the label confirming the log was sent and then disappering for 2 seconds
+//   This will show the label confirming the log was sent and then disappering for 2 seconds on the app
+//   Please do not format the label code below to when the print statement occurs as this is to check if the
+//   function occurred.
         label.isHidden = false
         self.label.text = "Log Sent!!!"
         
@@ -99,6 +101,8 @@ class ViewController: UIViewController {
         span.finish()
         
 //    Same process as the log label to prove if the trace was send
+//   Please do not format the label code below to when the print statement occurs as this is to check if the
+//   function occurred.
         label.isHidden = false
         self.label.text = "Trace Sent!!!"
         
