@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         Datadog.initialize(
             appContext: .init(),
             configuration: Datadog.Configuration
-                .builderUsing(clientToken: "pubc51c1e44835831c24e8cd738b48bba3d", environment: "datadogIosApp")
+                .builderUsing(clientToken: "<CLIENT TOKEN HERE>", environment: "datadogIosApp")
                 .set(serviceName: "appname")
                 .build()
         )
