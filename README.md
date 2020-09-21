@@ -17,7 +17,7 @@ sudo gem install cocoapods
 
 4) The desirec SDK version, 1.3.0-beta1, is added to the pod file. Once you have saved the file, run the following in your terminal:
 ```podfile
-pod installl
+pod install
 ```
 
 For reference your directory should now look like the following:
